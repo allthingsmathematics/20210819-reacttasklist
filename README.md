@@ -1,3 +1,19 @@
+
+Summary
+-Starting off with two hooks on global app level
+-first hook “showAddTask” is whether the “add task” form is being shown, it is initially set to a false state, and once the add button is clicked, it is then set to true, the add form is shown, and the button changes from “add” to “close”…..when close button is clicked, the “showAddTask” state gets set back to false, and the add form closes
+
+-second hook on the global app level is “taskList” which is an array of tasks, starts initially off with 3 tasks
+-you can double click each task to toggle “reminder” to be true or false, if it is true, then a green sidebar appears beside the task
+-you can click the “x” icon beside any task to delete it out of the array
+
+
+-there are also 3 hooks (text, day, reminder boolean) within the AddTask component…these start changing as you type into the AddTask form. When the “Save Task” button is clicked, a new entry into the global “taskList” array is added with the inputs
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
